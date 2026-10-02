@@ -1,0 +1,15 @@
+<svg viewBox="0 0 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Black tick / checkmark with rounded stroke -->
+    <polyline
+        points="130,260 210,340 370,170"
+        fill="none"
+        stroke="#162161"
+        stroke-width="55"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+
+</svg>
+
+<!--#162161-->

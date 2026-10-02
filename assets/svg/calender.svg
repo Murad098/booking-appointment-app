@@ -1,0 +1,31 @@
+<svg viewBox="0 0 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <mask id="calMask">
+            <rect x="50" y="90" width="400" height="370" rx="68" ry="68" fill="white"/>
+            <rect x="80" y="195" width="340" height="238" rx="28" ry="28" fill="black"/>
+            <rect x="147" y="58" width="66" height="108" rx="33" ry="33" fill="black"/>
+            <rect x="289" y="58" width="66" height="108" rx="33" ry="33" fill="black"/>
+            <polygon points="360,433 420,433 420,373" fill="black"/>
+        </mask>
+
+        <mask id="tabMask">
+            <rect x="0" y="0" width="500" height="500" fill="white"/>
+            <rect x="163" y="68" width="34" height="88" rx="17" ry="17" fill="black"/>
+            <rect x="305" y="68" width="34" height="88" rx="17" ry="17" fill="black"/>
+        </mask>
+    </defs>
+
+    <!-- Calendar body with inner page punched out -->
+    <rect x="50" y="90" width="400" height="370" rx="68" ry="68" fill="#162161" mask="url(#calMask)"/>
+
+    <!-- Left tab -->
+    <rect x="147" y="55" width="66" height="112" rx="33" ry="33" fill="#162161" mask="url(#tabMask)"/>
+
+    <!-- Right tab -->
+    <rect x="289" y="55" width="66" height="112" rx="33" ry="33" fill="#162161" mask="url(#tabMask)"/>
+
+    <!-- Bottom-right corner fold -->
+    <polygon points="358,435 420,375 420,435" fill="#162161"/>
+
+</svg>
